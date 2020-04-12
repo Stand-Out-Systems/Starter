@@ -27,6 +27,10 @@ This starter was created from an Angular 6 template, but any version of Angular 
 * You should see this:
 !![UI](https://github.com/Stand-Out-Systems/Starter/blob/master/Images/UI.PNG)
 
+- Perform CRUD operations on the list. If you add a new item, in the background a giph will automatically get attatched to that item that is related to the item name.
+
 ### Useful Links:
 [Spring Boot starter app with Angular](https://developer.okta.com/blog/2017/04/26/bootiful-development-with-spring-boot-and-angular).
+[Turn this into a PWA](https://developer.okta.com/blog/2017/05/09/progressive-web-applications-with-angular-and-spring-boot) (Haven't done this yet).
+[Angular Material](https://material.angular.io/components/input/overview).
 
