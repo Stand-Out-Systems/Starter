@@ -11,10 +11,14 @@ This starter was created from an Angular 6 template, but any version of Angular 
   - mysql> grant all on db_example.* to 'springuser'@'%'; -- Gives all privileges to the new user on the newly created database
 
 
-### App setup:
+### Server setup:
 - Clone repository.
 - Open up 'Server' in IDE.
 - Go to 'DemoApplication.java', right click and select 'Run as Spring Boot application.'
+
+
+
+
 - In command line, cd into client folder.
 - Run 'npm install' to get dependencies.
 - Run 'ng serve' to start the web server.
