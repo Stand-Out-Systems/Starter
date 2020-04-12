@@ -19,7 +19,7 @@ This starter was created from an Angular 6 template, but any version of Angular 
 - Open up 'Server' in IDE.
 - Go to 'DemoApplication.java', right click and select 'Run as Spring Boot application.'
 * When the application has started you should see this:
-![Server](https://github.com/Stand-Out-Systems/Starter/blob/master/Images/SpringRunner.PNG)
+![Server](https://github.com/Stand-Out-Systems/Starter/blob/test-starter/Images/SpringRunner.PNG)
 
 
 ### Client setup:
