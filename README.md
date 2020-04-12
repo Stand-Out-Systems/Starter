@@ -1,6 +1,9 @@
 # Starter
 This starter was created from an Angular 6 template, but any version of Angular greater than 2 should work. Angular cli makes it easier to work with angular projects, install that here - https://cli.angular.io/ .
 
+## Prequistes
+- Install *MySQL*_ https://dev.mysql.com/doc/refman/8.0/en/windows-installation.html
+
 ## Developer Guide:
 
 ### Database setup:
