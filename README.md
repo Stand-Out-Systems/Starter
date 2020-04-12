@@ -25,7 +25,7 @@ This starter was created from an Angular 6 template, but any version of Angular 
 - Run 'ng serve' to start the web server.
 - Navigate to 'http://localhost:4200/'.
 * You should see this:
-!![UI](https://github.com/Stand-Out-Systems/Starter/blob/master/Images/UI.PNG)
+![UI](https://github.com/Stand-Out-Systems/Starter/blob/master/Images/UI.PNG)
 
 - Perform CRUD operations on the list. If you add a new item, in the background a giph will automatically get attatched to that item that is related to the item name.
 
