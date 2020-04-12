@@ -1,0 +1,52 @@
+<h2>
+  Beer List
+</h2>
+
+<mat-list>
+  <mat-list-item *ngFor="let b of beers">
+    <img mat-list-avatar src="{{b.giphyUrl}}" alt="{{b.name}}">
+    <h3 mat-line>
+      {{b.name}}, with ID: {{b.id}}
+    </h3>
+  </mat-list-item>
+</mat-list>
+
+<form #createBeerForm="ngForm" (ngSubmit)="createBeer(name)">
+<h3>Create a Beer</h3>
+<mat-form-field class="example-full-width">
+    <mat-label>Beer Name:</mat-label>
+     <input matInput id="beer" name="beer" type="text" [(ngModel)] = "name">
+  </mat-form-field>
+
+    <br>
+   <button mat-raised-button type="submit" class="btn btn-primary">CREATE <span class="glyphicon glyphicon-cloud-upload"></span></button>
+</form>
+
+
+
+<form #updateBeerForm="ngForm" (ngSubmit)="updateBeer(beer.id, beer.name)">
+   <h3>Update a Beer by ID</h3>
+<mat-form-field class="example-full-width">
+      <mat-label>ID:</mat-label>
+      <input matInput id="id" name="id" type="text" [(ngModel)] = "beer.id">
+  </mat-form-field><br>
+    
+
+    <mat-form-field class="example-full-width">
+      <mat-label>New Name:</mat-label>
+      <input matInput id="name" name="name" type="text" [(ngModel)] = "beer.name">
+    </mat-form-field>
+    <br>
+    
+   <button mat-raised-button color="primary" type="submit" class="btn btn-primary">UPDATE <span class="glyphicon glyphicon-cloud-upload"></span></button> 
+</form>
+
+<form #deleteBeerForm="ngForm" (ngSubmit)="deleteBeer(id)">
+   <h3>Delete a Beer by ID</h3>
+   <mat-form-field class="example-full-width">
+      <mat-label>ID:</mat-label>
+      <input matInput id="beer" name="beer" type="text" [(ngModel)] = "id">
+      </mat-form-field>
+   <br>
+   <button mat-raised-button color="warn" type="submit" class="btn btn-primary">DELETE <span class="glyphicon glyphicon-cloud-upload"></span></button>
+</form>
