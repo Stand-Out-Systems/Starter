@@ -19,7 +19,14 @@ This starter was created from an Angular 6 template, but any version of Angular 
 ![Server](https://github.com/Stand-Out-Systems/Starter/blob/master/Images/SpringRunner.PNG)
 
 
-
+### Client setup:
 - In command line, cd into client folder.
 - Run 'npm install' to get dependencies.
 - Run 'ng serve' to start the web server.
+- Navigate to 'http://localhost:4200/'.
+* You should see this:
+https://github.com/Stand-Out-Systems/Starter/blob/master/Images/UI.PNG
+
+### Useful Links:
+[Spring Boot starter app with Angular](https://developer.okta.com/blog/2017/04/26/bootiful-development-with-spring-boot-and-angular).
+
