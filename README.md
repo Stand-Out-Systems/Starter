@@ -25,7 +25,7 @@ This starter was created from an Angular 6 template, but any version of Angular 
 - Run 'ng serve' to start the web server.
 - Navigate to 'http://localhost:4200/'.
 * You should see this:
-https://github.com/Stand-Out-Systems/Starter/blob/master/Images/UI.PNG
+!![UI](https://github.com/Stand-Out-Systems/Starter/blob/master/Images/UI.PNG)
 
 ### Useful Links:
 [Spring Boot starter app with Angular](https://developer.okta.com/blog/2017/04/26/bootiful-development-with-spring-boot-and-angular).
